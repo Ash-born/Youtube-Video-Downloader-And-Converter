@@ -1,0 +1,21 @@
+﻿<Application x:Class="YtDownloader.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:YtDownloader"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <BitmapImage UriSource="/assets/play.ico" x:Key="Start"/>
+            <BitmapImage UriSource="/assets/pause.ico" x:Key="Pause"/>
+            <BitmapImage UriSource="/assets/minus.ico" x:Key="Remove"/>
+            <BitmapImage UriSource="pack://application:,,,/assets/green-minus.ico" x:Key="GreenRemove"/>
+            <BitmapImage UriSource="pack://application:,,,/assets/cancel.ico" x:Key="Cancel"/>
+            <BitmapImage UriSource="pack://application:,,,/assets/close.ico" x:Key="Close"/>
+            <BitmapImage UriSource="pack://application:,,,/assets/blue-plus.ico" x:Key="BluePlus"/>
+            <BitmapImage UriSource="pack://application:,,,/assets/green-plus.ico" x:Key="GreenPlus"/>
+            <BitmapImage UriSource="pack://application:,,,/assets/more.ico" x:Key="More"/>
+            <BitmapImage UriSource="pack://application:,,,/assets/settings.ico" x:Key="Settings"/>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

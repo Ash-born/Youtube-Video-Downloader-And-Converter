@@ -1,0 +1,11 @@
+{
+  "StartDropBoxDll": true,
+  "AlwaysOverwrite": true,
+  "ProxyServer": "",
+  "ShowDropBox": true,
+  "AutomaticRemove": false,
+  "AutomaticPlay": false,
+  "AutomaticOpen": false,
+  "AutomaticClose": false,
+  "AutomaticShitdown":  false
+}
